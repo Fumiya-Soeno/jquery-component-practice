@@ -1,0 +1,12 @@
+.sidebar-content {
+    color: #333;
+    display: block;
+    padding: 8px 16px;
+}
+.sidebar-content:hover {
+    background-color: #AAEA9B;
+}
+.sidebar-content i {
+    width: 16px;
+    display: inline-block;
+}

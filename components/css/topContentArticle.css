@@ -1,0 +1,82 @@
+.article {
+    font-weight: 500;
+    padding: 12px 20px;
+    border-bottom: 1px solid #DDD;
+}
+.article a:hover {
+    text-decoration: underline;
+}
+.article-header {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+.article-header-usericon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #333;
+    width: 30px;
+    height: 30px;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+.article-header-username {
+    padding: 0 4px;
+}
+.article-header-createdat {
+    color: #999;
+}
+.article-title {
+    display: block;
+    margin-top: 4px;
+    font-weight: bold;
+}
+.article-title:hover {
+    text-decoration: underline;
+}
+.article-tags {
+    color: #666;
+}
+.article-tags a {
+    font-size: 12px;
+}
+.article-tags span {
+    padding-right: 2px;
+}
+.article-footer {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.article-footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.article-footer-left-icon {
+    width: 18px;
+    fill: #666;
+}
+.article-footer-left-lgtm {
+    font-size: 12px;
+    margin-left: 6px;
+}
+.article-footer-right {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid #666;
+}
+.article-footer-right svg {
+    width: 16px;
+    height: 16px;
+    fill: #666;
+}
